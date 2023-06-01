@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Website for Desi's blog and link to YouTube and other digital content.">
+  <meta name="keywords" content="desi, digital forensics, incident response, dfir, cyber, blog">
+  <meta name="author" content="desi">
+
+  <link rel="stylesheet" href="../style.css">
+
+  <title>Hardly Adequate - Blog</title>
+</head>
+<body>
+  <div class="container">
+    <div class="banner">
+      <a href="https://www.buymeacoffee.com/hardlyadequate" target="_blank"><img src="../images/gif/header_consider.gif"></a>
+      <a href="https://discord.gg/bjkdzqc7nB" target="_blank">Discord</a>
+      &bullet;
+      <a href="../index.html">Home</a>
+      &bullet;
+      <a href="https://www.linkedin.com/in/alexdesmond/" target="_blank">LinkedIn</a>
+      &bullet;
+      <a href="https://www.youtube.com/channel/UC5JmJiob-C9u9tWhRXD-rag" target="_blank">Youtube</a>
+      &bullet;
+      <a href="https://shows.acast.com/hardlyadequate" target="_blank">Podcast</a>
+    </div>
+    <div class="middle">
+      <h1>My Blog</h1>
+      <div>
+        <div>
+          <div class="card">
+            <h2><a href="cbf/cbf.html">CBF</a></h2>
+            <h5>Dec, 2022</h5>
+            <div><a  href="cbf/cbf.html"><img class="blogimg" src="cbf/cbf.jpg"></a></div>
+            <p> The above picture was me except fatter and more of a piece of shit. Don’t get me wrong this was all my doing and I was hitting another low point mainly in the fitness portion of my life.</p>
+          </div>
+          <div class="card">
+            <h2><a  href="new_way_to_think_about_risk/new_way_to_think_about_risk.html">New way to think about risk</a></h2>
+            <h5>Dec, 2022</h5>
+            <div><a  href="new_way_to_think_about_risk/new_way_to_think_about_risk.html"><img class="blogimg" src="new_way_to_think_about_risk/risk_douche.jpg"></a></div>
+            <p> Something that I took for granted early on in my career was translating the technical so what into risk and even how to explain that to people who don’t know technical content. One thing that I have appreciated in working with some amazing and intelligent people in my last three jobs is observing them be so eloquent in how they explain the so what to senior leaders and people who aren’t in the cyber security space.</p>
+          </div>
+          <div class="card">
+            <h2><a href="i_made_innovation/i_made_innovation.html">I made innovation</a></h2>
+            <h5>Nov, 2022</h5>
+            <div><a  href="i_made_innovation/i_made_innovation.html"><img class="blogimg" src="i_made_innovation/innovation.jpg"></a></div>
+            <p> Innovation in the cyber industry is dead. This is something we’ve spoken about before on the Forensic Focus podcast, you can listen here or from any place you get your favourite podcasts.</p>
+          </div>
+          <div class="card">
+            <h2><a href="finding_my_porpoise/finding_my_porpoise.html">Finding my porpoise</a></h2>
+            <h5>Nov, 2022</h5>
+            <div><a href="finding_my_porpoise/finding_my_porpoise.html"><img class="blogimg" src="finding_my_porpoise/porpoise.jpg"></a></div>
+            <p> “You should pick a trade because university might not work out for you” – Year 10 career advisor. That quote was the actual advice that I received from my career advisor in year 10.</p>
+          </div>
+          <div class="card">
+            <h2><a href="finally_using_agility/finally_using_agility.html">Finally using agility</a></h2>
+            <h5>Nov, 2022</h5>
+            <div><a href="finally_using_agility/finally_using_agility.html"><img src="finally_using_agility/airplane.jpg"></a></div>
+            <p> I generally will set the titles of my blog or make presentations with lots of memes in them mostly I think as a defensive mechanism because if I can make you laugh then I’ll feel better about myself annnnnd today is no different.</p>
+          </div>
+          <div class="card">
+            <h2><a href="just_starting_something_new/just_starting_something_new.html">Just starting something new</a></h2>
+            <h5>Oct, 2022</h5>
+            <div><a href="just_starting_something_new/just_starting_something_new.html"><img src="just_starting_something_new/wake-up-dead-666x300.jpg"></a></div>
+            <p>What feels like ages ago I used to write regularly on a GitHub blog which I have since taken down. It had technical write-ups and my journey through OSCP. I checked and the site for the analyst playbook is still there you can go and check out the analyst-playbook.</p>
+          </div>
+        </div>
+        <button onclick="topFunction()" id="myBtn" title="Go to top"><b>Scroll to Top</b></button>
+        <script>
+          // Get the button
+          let mybutton = document.getElementById("myBtn");
+
+          // When the user scrolls down 20px from the top of the document, show the button
+          window.onscroll = function() {scrollFunction()};
+
+          function scrollFunction() {
+            if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+              mybutton.style.display = "block";
+            } else {
+              mybutton.style.display = "none";
+            }
+          }
+
+          // When the user clicks on the button, scroll to the top of the document
+          function topFunction() {
+            document.body.scrollTop = 0;
+            document.documentElement.scrollTop = 0;
+          }
+        </script>
+      </div>
+    <div class="footer">
+        &copy; desi and Hardly Adequate content <script>document.write(/\d{4}/.exec(Date())[0])</script>
+        <br>
+        Design by: <a href="https://discordapp.com/users/449167284770963458" target="_blank">desi</a><br />
+        Theme Inspiration: <a href="https://ippsec.rocks/?#" target="_blank">ippSec</a>
+        <br>
+        Found a bug? File it or fix it <a href="#" target="_blank">here</a>
+    </div>  
+    <script src="logic.js"></script>
+  </div>
+</body>
+
+</html>

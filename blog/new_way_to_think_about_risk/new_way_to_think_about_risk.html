@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Website for Desi's blog and link to YouTube and other digital content.">
+  <meta name="keywords" content="desi, digital forensics, incident response, dfir, cyber, blog">
+  <meta name="author" content="desi">
+
+  <link rel="stylesheet" href="../../style.css">
+
+  <title>Hardly Adequate - Blog</title>
+</head>
+<body>
+  <div class="container">
+    <div class="banner">
+      <a href="https://www.buymeacoffee.com/hardlyadequate" target="_blank"><img src="../../images/gif/header_consider.gif"></a>
+      <a href="https://discord.gg/bjkdzqc7nB" target="_blank">Discord</a>
+      &bullet;
+      <a href="../../index.html">Home</a>
+      &bullet;
+      <a href="../blog.html">My Blog</a>
+      &bullet;
+      <a href="https://www.linkedin.com/in/alexdesmond/" target="_blank">LinkedIn</a>
+      &bullet;
+      <a href="https://www.youtube.com/channel/UC5JmJiob-C9u9tWhRXD-rag" target="_blank">Youtube</a>
+      &bullet;
+      <a href="https://shows.acast.com/hardlyadequate" target="_blank">Podcast</a>
+    </div>
+    <div class="middle">
+      <h1>New way to think about risk</h1>
+      <div>
+        <div>
+          <div class="card">
+            <h2>Dec, 2022</h2>
+            <div><img src="risk_douche.jpg"></div>
+<p>Something that I took for granted early on in my career was translating the technical so what into risk and even how to explain that to people who don’t know technical content.</p>
+
+<p>One thing that I have appreciated in working with some amazing and intelligent people in my last three jobs is observing them be so eloquent in how they explain the so what to senior leaders and people who aren’t in the cyber security space. It always reminds me of the interview John Oliver did with Snowden (https://youtu.be/XEVlyP4_11M) where he translates what NSA was doing to a risk to the average American using nude photos as an analogy. A disclaimer here, don’t take my mention of this to be my endorsement of what Snowden did as a positive or a negative just a comment on excellent journalism and debate by John. </p>
+
+<p>A recent example of how I have seen this communicated which is just something I hadn’t really thought of before was watching Rob M. Lee present at Compact DISC 2022 when he explained that when defending critical infrastructure against attackers it’s not just business risk or immediate safety concerns to local operators and environment that you’re worried about but community risk also.</p>
+
+<p>This is easy to understand from the standpoint of an energy provider. If you lose the ability to provide power in the middle of Winter and people start to suffer and potentially die due to insufficient heating. Or if you’re a water provider and the water becomes contaminated due to an attack and people get sick or die. However, what about third party support for some of the critical functions. What if the communications and planning systems for trucking got hit. That would likely mean fuel, food, and goods delivery would at minimum be delayed likely causing panic buying (if the pandemic is anything to go by) and what are all the other second and third order effects of this. </p>
+
+<p>This is likely discussed and researched as part of some of the worlds best think tanks and probably part of the reason at least in Australia why we have started to see an extension to the organisations classed as critical infrastructure under the recent changes to the SOCI Act (https://www.legislation.gov.au/Details/C2022C00160). What I think we all can start to take away is questioning “Do I work somewhere that is critical infrastructure or supports it and are we doing enough or on the path for improvement?”</p>
+
+<p>All this is to say that community risk is a scary thing and with the rise of cyberattacks (or at least reporting of) in recent years it’s safe to say that people who attack critical infrastructure or organisations that support it either directly or indirectly are complete fuckwits.</p>
+
+<p>Lastly I’d like to leave you with a more positive thought. The ‘S’ looks like side boob. You can’t un-see it and you’re welcome. </p>
+            <div><img class="blogimg" src="sideboob.jpg"></div>
+          </div>
+          
+        </div>
+        <button onclick="topFunction()" id="myBtn" title="Go to top"><b>Scroll to Top</b></button>
+        <script>
+          // Get the button
+          let mybutton = document.getElementById("myBtn");
+
+          // When the user scrolls down 20px from the top of the document, show the button
+          window.onscroll = function() {scrollFunction()};
+
+          function scrollFunction() {
+            if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+              mybutton.style.display = "block";
+            } else {
+              mybutton.style.display = "none";
+            }
+          }
+
+          // When the user clicks on the button, scroll to the top of the document
+          function topFunction() {
+            document.body.scrollTop = 0;
+            document.documentElement.scrollTop = 0;
+          }
+        </script>
+      </div>
+    <div class="footer">
+        &copy; desi and Hardly Adequate content <script>document.write(/\d{4}/.exec(Date())[0])</script>
+        <br>
+        Design by: <a href="https://discordapp.com/users/449167284770963458" target="_blank">desi</a><br />
+        Theme Inspiration: <a href="https://ippsec.rocks/?#" target="_blank">ippSec</a>
+        <br>
+        Found a bug? File it or fix it <a href="#" target="_blank">here</a>
+    </div>  
+    <script src="logic.js"></script>
+  </div>
+</body>
+
+</html>

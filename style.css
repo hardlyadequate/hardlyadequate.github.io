@@ -1,0 +1,137 @@
+:root {
+  --lightCarpet: rgb(135,123,164);
+  --darkCarpet: rgb(131,120,163);
+  --lightWaffle: rgb(252,236,209);
+  --darkWaffle: rgb(215, 160, 128);
+  --yeti: rgb(218,47,72);
+  --ha_outline: rgb(238,0,241);
+}
+
+@import url("https://fonts.googleapis.com/css?family=Source+Code+Pro&display=swap");
+body {
+  background: var(--darkCarpet);
+  color: black;
+  font-size: 1rem;
+}
+
+body .container a {
+  color: #FFF;
+}
+
+body .table td {
+  padding-left: 1.5vw;
+  padding-right:1.5vw;
+}
+
+body .team {
+  border-color: black;
+  border-width: .5rem;
+  border-style: solid;
+  border-radius: 50vw;
+  max-width: 20vw;
+  min-width: 10vw;
+}
+
+body .container .banner h1 {
+  font-size: 4rem;
+  margin: 0rem;
+  color: black;
+  vertical-align: text-top;
+}
+
+body .container .footer {
+  background-color: rgba(255, 255, 255, 0.05);
+}
+
+body {
+  margin: 0;
+  font-family: 'Source Code Pro', monospace;
+  overflow-x: hidden;
+}
+
+body .container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  min-height: 100vh;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+body .container a {
+  text-decoration: none;
+}
+
+body .container .footer {
+  display: block;
+  position: relative;
+  bottom: 0;
+  left: 0;
+  width: 100vw;
+  padding: 1rem;
+  font-size: 0.8rem;
+}
+
+body .container .banner {
+  display: block;
+  position: relative;
+  top: 0;
+  left: 0;
+  right: 0;
+  width: 100vw;
+  height: auto;
+}
+
+body .banner img{width:100%}
+
+/* Add a card effect for blog */
+body .card p {
+   background-color: var(--darkCarpet);
+   margin: 2vw 10vw 2vw 10vw;
+}
+
+body .card ol li {
+   background-color: var(--darkCarpet);
+   margin: 2vw 16vw 2vw 16vw;
+}
+
+body .card ul li {
+   background-color: var(--darkCarpet);
+   text-align: left;
+   margin: 0vw 16vw 0vw 16vw;
+}
+
+body .card a {
+  color: black;
+}
+
+.blogimg {
+  max-height: 45vw;
+}
+
+#myBtn {
+  font-size: 1rem;
+  border: none;
+  outline: none;
+  background-color: var(--darkWaffle);
+  color: var(--yeti);
+  cursor: pointer;
+  padding: 15px;
+  border-radius: 4px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 1vw;
+}
+
+#myBtn:hover {
+  background-color: var(--lightWaffle);
+}
